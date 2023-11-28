@@ -5,10 +5,19 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .virsraksts{
     color: #6C63FF;
     font-size: 48px;
     font-weight: bold;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
 }
